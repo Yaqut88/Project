@@ -1,0 +1,440 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header {
+    background-color: #DEECEC;
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 200px;
+
+        #sosial {
+            .sosial_ul {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+            }
+        }
+    }
+
+    #header_main {
+        #header_p {
+            color: #589195;
+        }
+
+        #header_p2 {
+            color: #707686;
+        }
+
+        h3 {
+            color: #3A415C;
+        }
+
+        button {
+            width: 170px;
+            height: 50px;
+            color: #FFF;
+            background-color: #589195;
+            border-radius: 38px;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+#first {
+    .first_content {
+
+        span {
+            margin-top: 10px;
+            color: #7F8698;
+        }
+
+        h5 {
+            margin-top: 10px;
+            color: #34394C;
+            ;
+        }
+
+    }
+}
+
+#second {
+    .second_title {
+        margin-top: 50px;
+        margin-left: 6%;
+    }
+
+    .container {
+
+        .second_picture {
+            background-color: #F7F8FC;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .second_img {
+            h5 {
+                color: #34394C;
+            }
+
+            .reiting {
+                color: #7F8698;
+            }
+
+            .price {
+                font-size: 23px;
+                font-weight: 700;
+                color: #297176;
+            }
+        }
+    }
+}
+
+
+#third {
+    margin-top: 50px;
+    background-color: #F6F8FA;
+    padding: 60px auto;
+
+    .container {
+        .third_img {
+            padding: 50px 70px;
+        }
+
+        .third_textcontent {
+            padding: 60px;
+            margin-top: 50px;
+
+            #third_text {
+                color: #589195;
+            }
+
+            #third_title {
+                font-size: 35px;
+                color: #34394C;
+            }
+
+            #third_p {
+                color: #707686;
+                font-size: 16px;
+                opacity: 1;
+            }
+
+            #third_price {
+                color: #589195;
+                font-size: 45px;
+                font-weight: 500;
+                line-height: 60px;
+            }
+
+            #third_price2 {
+                color: #5b6075;
+                text-decoration: line-through;
+                font-weight: 28px;
+                margin-left: 3%;
+            }
+
+            #third_button {
+                border: none;
+                outline: none;
+                width: 160px;
+                height: 50px;
+                margin-left: 5%;
+                color: #FFFFFF;
+                background-color: #589195;
+                border-radius: 38px;
+            }
+
+            .numberbutton {
+                button {
+                    font-size: 30px;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 35px;
+                    background-color: #FFFFFF;
+                    border: none;
+                    color: #3A415C;
+                }
+
+                span {
+                    font-size: 25px;
+                    margin: 8px;
+                }
+
+
+
+
+            }
+        }
+    }
+}
+
+#fourth {
+    .fourth_title {
+        margin-top: 50px;
+        margin-left: 6%;
+    }
+
+    .container {
+        .fourth_content{
+            .fourth_picture {
+                background-color: #F7F8FC;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .fourth_img {
+                h5 {
+                    color: #34394C;
+                }
+    
+                .reiting {
+                    color: #7F8698;
+                }
+    
+                .price {
+                    font-size: 23px;
+                    font-weight: 700;
+                    color: #297176;
+                }
+
+                // .relative_img{
+                //     position: relative;
+                // }
+                // .absolute_image1{
+                //     position: absolute;
+                //     top: 0%;
+                // }
+                // .absolute_image2{
+                //     position: absolute;
+                //     top: 10%;
+                //     right: 0%;
+                // }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+#fifth {
+    .container {
+
+        a {
+            color: black;
+        }
+
+        #fifth_content {
+            background-color: #E9E6F0;
+            width: 45%;
+
+            .fifth_text {
+                width: 40%;
+                padding: 30px;
+                margin-top: 30px;
+
+                span {
+                    color: #589195;
+                    font-size: 14px;
+                }
+
+                p {
+                    color: #34394C;
+                    font-size: 23px;
+                }
+            }
+        }
+
+        #fifth_content2 {
+            background-color: #F6EBD9;
+            width: 45%;
+            margin-left: 30px;
+        }
+
+        .fifth_text {
+            width: 40%;
+            padding: 30px;
+            margin-top: 30px;
+
+            span {
+                color: #589195;
+                font-size: 14px;
+                line-height: 60px;
+            }
+
+            p {
+                color: #34394C;
+                font-size: 23px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+
+#sixth {
+    .container {
+        margin-top: 80px;
+
+        #text_content {
+            margin-bottom: 30px;
+
+            .sixth_title {
+                color: #34394C;
+                font-size: 33px;
+                font-weight: 400;
+            }
+
+            .sixth_title2 {
+                padding: 40px auto 40px auto;
+                color: #707686;
+                font-size: 15px;
+                font-weight: 300;
+
+            }
+        }
+
+        #card_content {
+            text-align: center;
+
+            .span1 {
+                color: #34394C;
+                font-size: 28px;
+            }
+
+            .span2 {
+                color: #BFBFBF;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+#seventh {
+    background-color: #F6F8FA;
+    margin-top: 70px;
+    padding: 100px;
+    position: relative;
+
+    .container {
+        .row {
+            .seventh_firstcontent {
+               
+                h2 {
+                    size: 30px;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: #707686;
+                    line-height: 30px;
+                }
+            }
+.aboutcard{
+    padding: 60px;
+    background-color: #FFFFFF;
+    width: 350px ;
+    height: 400px;
+    margin: 20px;
+    z-index: 9;
+            .aboutcontent1{
+display: flex;
+justify-content: space-between;
+            }
+          .aboutcontent2{
+            margin-top: 30px;
+          }  
+          .maskgroup{
+            display: flex;
+            justify-content:flex-start;
+            margin-top: 20px;
+            .maskgrouptext{
+                margin-left: 20px;
+            .person{
+                font-size: 20px;
+            }
+            .profession{
+                font-size: 12px;
+                color: #B4B9C7;
+            }
+          }
+        }
+    }
+        }
+    }
+
+.absolute_img1{
+position: absolute;;
+left: 42%;
+top: 8%;
+}
+.absolute_img2{
+position: absolute;
+left: 3%;
+bottom: 0%;
+}
+.absolute_img3{
+position: absolute;
+    bottom: 3%;
+    right: 10%;
+}
+.absolute_img4{
+position: absolute;
+right: 5%;
+top: 5%;
+}
+}
+
+
+
+#eights {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #E8EAEF;
+
+    #footer_input {
+        border: none;
+        background-color: white;
+        padding: 10px 60px
+    }
+
+    a {
+        text-decoration: none;
+    }
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+}
+#footer_end{
+display: flex;
+justify-content: space-between;
+padding: 30px 100px;
+}
+
+
+}
